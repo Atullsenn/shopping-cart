@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .cards {
+    width: 250px;
+    padding: 20px;
+    
+  }
+  .searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .search-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    width: 45%;
+    height: 38px;
+    left: 16px;
+    top: 50px;
+    gap: 20px;
+    
+    background: rgba(196, 196, 196, 0.19);
+    
+    border-radius: 5px;
+    
+  }
+
+  .search-box > input{
+    border: none;
+    background: none;
+    width: 80%;
+    height: 28px;
+    
+  }
+
+  @media screen and (max-width:688px){
+    .section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      
+      
+    }
+    .image_box{
+      margin-top:40px;
+      margin-left: 50px;
+      
+    }
+    .image_box img {
+      width: 250px;
+      height: 300px;
+    }
+    .searchBar span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+
+    }
+    .search-box{
+      padding-left: 1rem;
+      width: 300px;
+      margin: 10px;
+    }
+    .search-box>input{
+      
+    }
+    .details{
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+    }
+    
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  .image_box img {
+    width: 150px;
+    height: 200px;
+  }
+  
+  .image_box img {
+    width: 150px;
+    height: 200px;
+  }
+  .details p:nth-child(1) {
+    font-weight: bold;
+    
+  }
+  .details p:nth-child(2) {
+    color: #DB4700;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bold;
+    color:#DB4700;
+  }
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #DB4700;
+    outline: none;
+    width: 100px;
+  }
